@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/itemcount"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:textColor="@color/button_color"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fajrtime"
+        android:padding="5dp"
+    android:textColor="@color/button_color"
+        android:textSize="12sp"
+        android:layout_marginLeft="32dp"/>
+/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zuhurtime"
+        android:padding="5dp"
+        android:textColor="@color/button_color"
+        android:textSize="12sp"
+        android:layout_marginLeft="32dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Asrtime"
+        android:textColor="@color/button_color"
+        android:padding="5dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="32dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Maghribtime"
+        android:textColor="@color/button_color"
+        android:padding="5dp"
+        android:layout_marginLeft="32dp"
+        android:textSize="12sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Ishatime"
+        android:textColor="@color/button_color"
+        android:padding="5dp"
+        android:layout_marginLeft="32dp"
+        android:textSize="12sp"/>
+
+</LinearLayout>
