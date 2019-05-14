@@ -116,9 +116,9 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginLeft="30dp"
+                    android:layout_marginStart="30dp"
                     android:padding="3dp"
-                    android:text="Isha"
+                    android:text="@string/isha"
                     android:textColor="@color/current_Date"
                     android:textSize="15sp"
                     android:textStyle="bold" />
@@ -134,12 +134,12 @@
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="35dp"
+            android:layout_marginStart="35dp"
             android:layout_marginTop="30dp"
             android:layout_marginBottom="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintTop_toTopOf="@+id/table"
-            tools:layout_editor_absoluteX="16dp"></android.support.v7.widget.RecyclerView>
+            tools:layout_editor_absoluteX="16dp" />
 
 
     </RelativeLayout>

@@ -1,5 +1,7 @@
 package com.example.prayertimings;
 
+import android.content.SharedPreferences;
+
 import com.google.gson.annotations.SerializedName;
 
 public class PrayerTime {
@@ -10,6 +12,7 @@ public class PrayerTime {
     private String Maghrib;
     private String Isha;
     private String Date;
+
     public PrayerTime(String Fajr,String Zhuhr,String Asr,String Maghrib,String Isha ,String Date){
 
         this.Fajr=Fajr;
