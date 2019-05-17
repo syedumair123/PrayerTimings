@@ -70,11 +70,13 @@ public class RecyclerviewAdapterClass extends  RecyclerView.Adapter<Recyclerview
             String Asr = prayerTimeArrayList.get(i).getAsr();
             String Maghrib = prayerTimeArrayList.get(i).getMaghrib();
             String Isha = prayerTimeArrayList.get(i).getIsha();
+            String Zuhr = prayerTimeArrayList.get(i).getZhuhr();
             String Asr_12 = convert_format(Asr);
             String MAghrib_12 = convert_format(Maghrib);
             String ISha_12 = convert_format(Isha);
+            String Zuhr_12=convert_format(Zuhr);
             myviewholder.fajrtime.setText(prayerTimeArrayList.get(i).getFajr());
-            myviewholder.zuhurtime.setText(prayerTimeArrayList.get(i).getZhuhr());
+            myviewholder.zuhurtime.setText(Zuhr_12);
             myviewholder.asrtime.setText(Asr_12);
             myviewholder.maghribtime.setText(MAghrib_12);
             myviewholder.ishatime.setText(ISha_12);
@@ -114,6 +116,7 @@ else {
             itemcoun=(TextView) itemView.findViewById(R.id.itemcount);
         }
     }
+    public void setAlarm(){}
 }
 
 

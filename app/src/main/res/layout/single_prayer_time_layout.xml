@@ -17,7 +17,7 @@
         android:padding="5dp"
     android:textColor="@color/button_color"
         android:textSize="12sp"
-        android:layout_marginLeft="32dp"/>
+        android:layout_marginLeft="13dp"/>
 />
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +26,7 @@
         android:padding="5dp"
         android:textColor="@color/button_color"
         android:textSize="12sp"
-        android:layout_marginLeft="32dp"/>
+        android:layout_marginLeft="13dp"/>
 
     <TextView
         android:layout_width="wrap_content"
@@ -35,7 +35,7 @@
         android:textColor="@color/button_color"
         android:padding="5dp"
         android:textSize="12sp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginLeft="13dp"
         />
 
     <TextView
@@ -44,7 +44,7 @@
         android:id="@+id/Maghribtime"
         android:textColor="@color/button_color"
         android:padding="5dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginLeft="13dp"
         android:textSize="12sp"/>
     <TextView
         android:layout_width="wrap_content"
@@ -52,7 +52,7 @@
         android:id="@+id/Ishatime"
         android:textColor="@color/button_color"
         android:padding="5dp"
-        android:layout_marginLeft="32dp"
+        android:layout_marginLeft="13dp"
         android:textSize="12sp"/>
 
 </LinearLayout>

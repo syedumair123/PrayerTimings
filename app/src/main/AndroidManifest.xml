@@ -21,6 +21,12 @@
         <activity android:name=".MainActivity">
 
         </activity>
+        <receiver
+            android:name=".AlarmNotificationReciever"
+            android:enabled="true"
+            android:exported="true" />
     </application>
+
+
 
 </manifest>
